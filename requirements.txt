@@ -1,0 +1,8 @@
+# update_profile_art.py (diário, no GitHub Actions): só biblioteca padrão + fonte embutida
+fonttools>=4.47
+brotli>=1.1
+# make_ascii_svg.py (roda uma vez, quando trocar a foto)
+pillow>=10
+numpy>=1.26
+scipy>=1.11
+scikit-image>=0.22
