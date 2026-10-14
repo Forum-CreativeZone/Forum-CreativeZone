@@ -1,0 +1,211 @@
+{
+  "_leia": "Fonte de todo o conteúdo do README. Edite aqui e faça commit: o GitHub Actions regenera README.md e os SVGs sozinho.",
+  "login": "Forum-CreativeZone",
+  "name": "Miguel",
+  "prompt_user": "miguel@creativezone",
+  "role": "Desenvolvedor Full Stack",
+  "founder_of": "Fundador da Creative Zone",
+  "typing": [
+    "Desenvolvedor Full Stack",
+    "Fundador da Creative Zone",
+    "Servidores MCP que dão ferramentas reais para IAs",
+    "SaaS do banco de dados ao app mobile"
+  ],
+  "about": {
+    "paragraphs": [
+      "Construo produtos de ponta a ponta: do Postgres com RLS ao app Android, passando por servidores MCP que deixam a IA criar, testar e operar software de verdade.",
+      "Fundei a Creative Zone, organização e comunidade onde uma discussão vira ideia e uma ideia vira projeto, reunindo gente de áreas diferentes para construir junto."
+    ],
+    "facts": [
+      [
+        "foco",
+        "SaaS · IA e MCP · comunidade"
+      ],
+      [
+        "front",
+        "React · TypeScript · TanStack · Tailwind"
+      ],
+      [
+        "back",
+        "Node.js · Supabase · PostgreSQL · Deno"
+      ],
+      [
+        "infra",
+        "Cloudflare · Docker · Caddy · GitHub Actions"
+      ],
+      [
+        "agora",
+        "Creative Lovable 1.0 · Linkou · Meu Salão"
+      ]
+    ]
+  },
+  "projects": [
+    {
+      "slug": "creative-lovable",
+      "name": "Creative Lovable",
+      "repo": "Forum-CreativeZone/CreativeLovable",
+      "url": "https://github.com/Forum-CreativeZone/CreativeLovable",
+      "visibility": "público",
+      "badge": "MIT · v1.0.0",
+      "tagline": "Laboratório de criação para IAs via MCP: a IA cria, roda, vê os erros e entrega.",
+      "highlights": [
+        "22 ferramentas MCP via stdio e Streamable HTTP",
+        "Preview ao vivo, erros com arquivo e linha, versões",
+        "Checagem de JS/JSX (Acorn) e captura via Playwright",
+        "Sandbox, comandos sem shell e anti DNS rebinding"
+      ],
+      "tech": [
+        "Node.js",
+        "MCP SDK",
+        "Zod",
+        "Playwright",
+        "JSZip"
+      ]
+    },
+    {
+      "slug": "creativezone",
+      "name": "CreativeZone",
+      "repo": "Forum-CreativeZone/CreativeZone",
+      "url": "https://forum.creativezone.pro/",
+      "visibility": "público",
+      "badge": "forum.creativezone.pro",
+      "tagline": "Fórum e plataforma da comunidade: discussões que viram projetos.",
+      "highlights": [
+        "Chat realtime com presença, moderação e anti-flood",
+        "DevHub com GitHub App e Security Score via OSV.dev",
+        "Link preview próprio com cache e proteção SSRF",
+        "113 migrations com RLS, 14 Edge Functions e PWA"
+      ],
+      "tech": [
+        "React 19",
+        "Vite",
+        "Supabase",
+        "Postgres",
+        "Cloudflare",
+        "Resend"
+      ]
+    },
+    {
+      "slug": "meu-salao",
+      "name": "Meu Salão",
+      "repo": "Forum-CreativeZone/Lolla-Salao",
+      "url": "https://crm.lollahair.com/",
+      "visibility": "privado",
+      "badge": "beta operacional",
+      "tagline": "SaaS vertical multi-salão para gerir salões de beleza na web e no celular.",
+      "highlights": [
+        "Agenda drag-and-drop, comandas, sinal PIX, comissões",
+        "Multi-tenant isolado por salão, auditoria e backups",
+        "Painel admin com feature flags e kill switches",
+        "Android/iOS com Capacitor e assinaturas RevenueCat"
+      ],
+      "tech": [
+        "TypeScript",
+        "TanStack",
+        "Supabase",
+        "Capacitor",
+        "Tailwind"
+      ]
+    },
+    {
+      "slug": "linkou",
+      "name": "Linkou",
+      "repo": "Forum-CreativeZone/linkou-agent-mcp-remote",
+      "url": "",
+      "visibility": "privado",
+      "badge": "monorepo pnpm",
+      "tagline": "Sua IA operando sua infraestrutura: MCP remoto para PCs, servidores e VPS.",
+      "highlights": [
+        "Gateway MCP + WebSocket e agentes Windows/Linux",
+        "Tiers de segurança, RBAC, aprovação e auditoria",
+        "Terminal remoto, workflows e ponte OpenAPI p/ GPTs",
+        "Instalador de 1 linha, vault AES-256, Docker + Caddy"
+      ],
+      "tech": [
+        "TypeScript",
+        "MCP SDK",
+        "WebSocket",
+        "Postgres",
+        "TanStack",
+        "Docker"
+      ]
+    }
+  ],
+  "stack": [
+    [
+      "frontend",
+      [
+        "react",
+        "typescript",
+        "javascript",
+        "vite",
+        "tanstack",
+        "tailwindcss",
+        "shadcnui",
+        "radixui"
+      ]
+    ],
+    [
+      "backend",
+      [
+        "nodedotjs",
+        "supabase",
+        "postgresql",
+        "deno",
+        "zod",
+        "resend"
+      ]
+    ],
+    [
+      "infra",
+      [
+        "cloudflare",
+        "docker",
+        "caddy",
+        "githubactions",
+        "pnpm",
+        "linux",
+        "git"
+      ]
+    ],
+    [
+      "ia_mobile",
+      [
+        "modelcontextprotocol",
+        "claude",
+        "capacitor",
+        "android"
+      ]
+    ],
+    [
+      "testes",
+      [
+        "vitest",
+        "text:Playwright"
+      ]
+    ]
+  ],
+  "community": {
+    "name": "Creative Zone",
+    "subtitle": "Comunidade Creative Lab",
+    "role": "Fundador",
+    "description": "Comunidade de tecnologia, software, automação, IA, infraestrutura, hardware e games, feita para ir além do fórum: uma discussão vira ideia, a ideia vira projeto e o projeto reúne membros de áreas diferentes.",
+    "features": [
+      "fórum",
+      "chat em tempo real",
+      "projetos colaborativos",
+      "DevHub + GitHub",
+      "Security Score"
+    ],
+    "forum": "https://forum.creativezone.pro/",
+    "org": "https://github.com/Creatiive-Zone"
+  },
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/miguel017/",
+    "linkedin_label": "miguel017",
+    "instagram": "https://www.instagram.com/ofc.quiroz/",
+    "instagram_label": "ofc.quiroz",
+    "email": "gestao.quiroz@gmail.com",
+    "terminal": "https://forum-creativezone.github.io"
+  }
+}
